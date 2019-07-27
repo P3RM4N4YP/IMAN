@@ -1,0 +1,44 @@
+#!/system/bin/sh
+#language : bash
+# author : 1M4N P3RM4N4
+
+ab='\033[30;m' #ABU
+me='\033[31;1m' #MERAH
+i='\033[32;1m' #IJO
+ku='\033[33;1m' #KUNING
+bi='\033[34;1m' #BIRU
+pur='\033[35;1m' #PURPLE
+cy='\033[36;1m' #CYAN
+pu='\033[37;1m' #PUTIH
+
+
+clear
+echo $i"WELCOME HACKER NUUB"
+sleep 1
+echo $pur"[--Buly Aja Sesuka Kalian Oke--]"
+sleep 2
+echo $me"PROGRAM BY P3RM4N4"
+sleep 3
+echo $ku"Mangga Di Pilih Hoyong Nu Mana"
+echo $ku"[1] Hack Wifi"
+echo $ku"[2] Hack Nassa"
+echo $pur""
+read -p "[?] sok sok pilih anjing [1-2-3]:" pilih
+
+if [ $pilih = "1" ]
+then
+echo $bi"[*] Menta Password Na Sia Teh Lain Nghack"
+fi
+
+if [ $pilih = "2" ]
+then
+sleep 5
+echo $cy"[*] Sakola Heula Cing Bener Jang"
+fi
+
+if [ $pilih = "3" ]
+then
+sleep 5
+echo $me"[*] salah milih anjing pilih deui nu bener"
+sleep 3
+fi
